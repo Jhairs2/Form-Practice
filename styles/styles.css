@@ -61,7 +61,8 @@ img {
 .main-content {
     display: flex;
     flex-direction: column;
-    padding-left: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
     width: 70%;
     background-color: var(--text-button-background-color);
 }
@@ -70,13 +71,42 @@ img {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    height: 35%;
+    height: 25%;
     font-size: 1.25rem;
     font-weight: bold;
     margin-top: 10%;
+    padding-left: 2em;
 }
 
 .main-text-container > p {
     max-width: 56ch;
+}
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5em 2em;
+    gap: 0.5em;
+    box-shadow: 4px 4px 4px rgb(212, 212, 212);
+}
+
+
+form {
+    display: flex;
+    gap: 5em;
+}
+
+
+input {
+    width: 350px;
+    padding: 0.5em;
+}
+
+label {
+    font-size: 0.75rem;
+}
+
+.button-container {
+   
 }
