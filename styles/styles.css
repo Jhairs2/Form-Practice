@@ -8,6 +8,7 @@
     --header-font-color: white;
     --header-font-size: 5rem;
     --header-background-color: rgba(0,0,0,.60);  
+    --text-button-background-color: #F0F0F0
 }
 
 body {
@@ -19,7 +20,6 @@ body {
 .main-page {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
 }
 
 
@@ -27,8 +27,8 @@ body {
 .header-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    color: var(--header-font-color); 
+    color: var(--header-font-color);
+    margin-top: 10%; 
     width: 30%;
     
 }
@@ -56,3 +56,26 @@ img {
 }
 
 
+/* Main Section */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5em;
+    width: 70%;
+    background-color: var(--text-button-background-color);
+}
+
+.main-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: 35%;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+
+.main-text-container > p {
+    max-width: 62ch;
+
+}
