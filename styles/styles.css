@@ -61,7 +61,7 @@ img {
 .main-content {
     display: flex;
     flex-direction: column;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Calibri', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     height: 100vh;
     width: 70%;
     background-color: var(--text-button-background-color);
@@ -107,6 +107,22 @@ label {
     font-size: 0.75rem;
 }
 
+/* Button section */
+
 .button-container {
-   
+    padding-left: 2em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
 }
