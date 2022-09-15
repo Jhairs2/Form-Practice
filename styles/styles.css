@@ -71,11 +71,12 @@ img {
     flex-direction: column;
     gap: 1em;
     height: 35%;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
     margin-top: 10%;
 }
 
 .main-text-container > p {
-    max-width: 62ch;
+    max-width: 56ch;
 
 }
