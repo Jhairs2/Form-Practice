@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Norse;
+    src: url("../fonts/Norse-Bold.otf") format("opentype");
+}
+
 :root {
     --header-font-color: white;
     --header-font-size: 5rem;
@@ -43,6 +48,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Norse, 'Times New Roman', Times, serif;
     font-size: var(--header-font-size);
     background-color: var(--header-background-color);
     padding: 0.1em;
