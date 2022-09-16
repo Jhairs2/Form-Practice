@@ -72,15 +72,13 @@ img {
     flex-direction: column;
     gap: 1em;
     height: 25%;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10%;
-    padding-left: 2em;
+    padding: 0px 2em;
 }
 
-.main-text-container > p {
-    max-width: 56ch;
-}
+
 
 .form-container {
     display: flex;
@@ -125,4 +123,8 @@ button {
     height: 40px;
     border-radius: 8px;
     font-weight: bold;
+}
+
+input:invalid {
+    border: 2px solid red;
 }
