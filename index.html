@@ -12,14 +12,15 @@
 
 <body>
     <div class="main-page">
-        <header class="header-container">
+        <header>
             <div class="logo-container">
-                <div id="logo"><img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Odin Logo"></div>
+                <div id="logo">
+                    <img
+                        src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                        alt="Odin Logo"></div>
                 <span id="logo-title">Odin</span>
             </div>
-            <div class="photo-creds">
-                <p>Photo by name from this place</p>
-            </div>
+            <p class="photo-creds">Photo by name from this place</p>
         </header>
         <main class="main-content">
             <div class="main-text-container">
@@ -31,58 +32,28 @@
                 <h3>Let's do this!</h3>
                 <form action="#" method="get">
                     <div class="form-col-1">
-                        
-                        <table>
-                            <tr>
-                               <td> <label for="first-name">First Name</label></td>
-                            </tr>
-                            <tr>
-                                <td><input type="text" name="first-name" id="first-name" ></td>
-                            </tr>
-
-                            <tr>
-                                <td><label for="email">Email</label></td>
-                            </tr>
-                            <tr>
-                                <td><input type="email" name="email" id="email" ></td>
-                            </tr>
-                            <tr>
-                                <td><label for="pass">Password</label></td>
-                            </tr>
-                            <tr>
-                                <td><input type="password" name="pass" id="pass" ></td>
-                            </tr>
-                        </table>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="pass">Password</label>
+                        <input type="password" name="pass" id="pass">
                     </div>
                     <div class="form-col-2">
-                        <table>
-                            <tr>
-                                <td> <label for="last-name">Last Name</label></td>
-                             </tr>
-                             <tr>
-                                 <td><input type="text" name="last-name" id="last-name" ></td>
-                             </tr>
- 
-                             <tr>
-                                 <td><label for="tel">Phone Number</label></td>
-                             </tr>
-                             <tr>
-                                 <td><input type="tel" name="tel" id="tel" ></td>
-                             </tr>
-                             <tr>
-                                 <td><label for="confirm-pass">Confirm Password</label></td>
-                             </tr>
-                             <tr>
-                                 <td><input type="password" name="confirm-pass" id="confirm-pass" ></td>
-                             </tr>
-                        </table>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" name="tel" id="tel">
+                        <label for="confirm-pass">Confirm Password</label>
+                        <input type="password" name="confirm-pass" id="confirm-pass">
                     </div>
-            </div>
+             </div>
             <div class="button-container">
                 <button type="submit" onclick=matchCheck()>Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
             </form>
+       
         </main>
     </div>
 
